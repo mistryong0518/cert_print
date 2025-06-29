@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="4.0" method="upgrade">
+    <name>Certificate Printer</name>
+    <version>1.0.0</version>
+    <description>Component for printing personalized certificates</description>
+    <files>
+        <filename>certificate_printer.php</filename>
+        <filename>controller.php</filename>
+        <filename>views/certificate/tmpl/default.php</filename>
+        <folder>models</folder>
+        <folder>controllers</folder>
+        <folder>views</folder>
+    </files>
+    <administration>
+        <menu>Certificate Printer</menu>
+        <files>
+            <filename>admin/certificate_printer.php</filename>
+            <folder>admin</folder>
+        </files>
+    </administration>
+</extension>

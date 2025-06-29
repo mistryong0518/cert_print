@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="package" version="4.0" method="upgrade">
+    <name>Certificate Printer Package</name>
+    <version>1.0.0</version>
+    <creationDate>2023-11-01</creationDate>
+    <author>Your Name</author>
+    <authorEmail>your@email.com</authorEmail>
+    <authorUrl>www.yourwebsite.com</authorUrl>
+    <copyright>Copyright (C) 2023. All rights reserved.</copyright>
+    <license>GNU General Public License version 2 or later</license>
+    <description>Package containing the Certificate Printer component</description>
+    <files>
+        <file type="component" id="com_certificate_printer">certificate_printer.zip</file>
+    </files>
+    <scriptfile>script.php</scriptfile>
+</extension>
